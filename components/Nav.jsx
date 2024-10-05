@@ -73,7 +73,7 @@ const Nav = () => {
         )}
       </div>
 
-      <div className="sm:hidden flex relatives">
+      <div className="sm:hidden flex relative">
         {isUserLoggedIn ? (
           <div className="flex">
             <Image
